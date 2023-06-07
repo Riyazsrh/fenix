@@ -60,7 +60,7 @@
 .bgc2::before {
   content: "";
   position: absolute;
-  top: -120px;
+  top: -160px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -111,12 +111,7 @@
   color: #f70;
 }
 
-.FreeTrail:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.chat-bot-button {
+.trail-button {
   position: fixed;
   bottom: 30px;
   right: 20px;
@@ -128,4 +123,8 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+}
+.trail-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
